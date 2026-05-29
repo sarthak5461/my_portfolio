@@ -91,7 +91,7 @@ export const projects = [
     stack: ["Next.js", "React", "Node.js", "Tailwind", "MongoDB"],
     image:
       "https://static.prod-images.emergentagent.com/jobs/187287cf-e8bd-4e3e-8b7c-5043562cb998/images/e2342e95d76ff503264601842bdc64e68872c97794378fead42cdcc082f4f4f2.png",
-    link: "https://github.com/sarthak5461/ngo-app",
+    link: "https://ngo-app-zeta.vercel.app/",
     accent: "bg-aqua",
     cardBg: "bg-mint",
   },
