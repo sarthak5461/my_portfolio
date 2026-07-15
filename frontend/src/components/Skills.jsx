@@ -38,7 +38,7 @@ export default function Skills() {
           <div className="h-[2px] flex-1 bg-ink/20" />
         </div>
         <h2 className="font-display font-black text-4xl md:text-6xl leading-[1.05] max-w-4xl">
-          Tools I reach for, day in & day out.
+          The stack I ship with — HubSpot & beyond.
         </h2>
       </div>
 

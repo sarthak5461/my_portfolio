@@ -58,10 +58,10 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.6 }}
               className="mt-6 max-w-2xl text-lg md:text-xl text-ink/80"
             >
-              I build delightful, fast and accessible web experiences — from messy ideas to shipped pixels. Currently obsessing over
-              <span className="bg-gold px-1 mx-1 font-medium">React</span>,
-              <span className="bg-mint px-1 mx-1 font-medium">Next.js</span> &
-              <span className="bg-butter px-1 mx-1 font-medium">scalable systems</span>.
+              I build fast, accessible & marketer-friendly HubSpot CMS experiences — from custom themes to multi-language builds. Currently deep in
+              <span className="bg-gold px-1 mx-1 font-medium">HubL</span>,
+              <span className="bg-mint px-1 mx-1 font-medium">HubDB</span> &
+              <span className="bg-butter px-1 mx-1 font-medium">Core Web Vitals</span>.
             </motion.p>
 
             <motion.div
