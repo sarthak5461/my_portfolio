@@ -11,8 +11,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/sarthaksahu54/",
   github: "https://github.com/sarthak5461",
   resume: "/resume.pdf",
-  avatar:
-    "https://static.prod-images.emergentagent.com/jobs/187287cf-e8bd-4e3e-8b7c-5043562cb998/images/ab13e38323d5741d4407d0eac39fe30bca2cd4e7e7be30faad8bf5d3c6db6f1d.png",
+  avatar: "/Professional_Passport_Portrait.png",
 };
 
 export const about = {
