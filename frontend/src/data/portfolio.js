@@ -98,9 +98,9 @@ export const projects = [
       "A full-stack digital platform built with Next.js, React, Node.js, and MongoDB. Developed responsive frontend experiences, backend APIs, database integrations, and interactive features to support GrowPlus's digital services and business workflows.",
     stack: ["Next.js", "React", "Node.js", "MongoDB"],
     image: "/growplus.png",
-    link: "https://www.karmadevitrust.org/",
-    accent: "bg-aqua",
-    cardBg: "bg-mint",
+    link: "https://www.growplused.com/",
+    accent: "bg-red",
+    cardBg: "bg-black",
   },
 ];
 
