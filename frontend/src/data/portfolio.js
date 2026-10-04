@@ -100,7 +100,7 @@ export const projects = [
     image: "/growplus.png",
     link: "https://www.growplused.com/",
     accent: "bg-red",
-    cardBg: "bg-black",
+    cardBg: "bg-mint",
   },
 ];
 
