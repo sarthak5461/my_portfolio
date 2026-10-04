@@ -1,0 +1,109 @@
+{
+  "theme": "LIGHT",
+  "archetype": "6 (Vibrant Play) combined with Neo-Brutalism",
+  "mood": "Playful, Confident, Tactile, Creative, Energetic",
+  "design_concept": "A creative, neo-brutalist portfolio that breaks out of the standard 'boring developer' mold. It uses high-contrast borders, solid drop shadows (offset by 4px or 8px), large display typography, and a vibrant color palette to stand out. Micro-interactions and hover states should feel tactile and physical. The entire site uses a single-page scrolling structure with smooth 'Lenis' momentum scrolling.",
+  "typography": {
+    "headings": {
+      "family": "Cabinet Grotesk, sans-serif",
+      "weights": ["800", "900"],
+      "usage": "Use Black/Heavy weights. Tight tracking (-0.02em to -0.04em). Never center by default. Left-aligned or intentionally broken alignment."
+    },
+    "body": {
+      "family": "Outfit, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Clean, readable, slightly geometric to balance the brutalist headers."
+    },
+    "mono_accents": {
+      "family": "IBM Plex Mono, monospace",
+      "usage": "Used for overlines, small tech stack tags, and subtle developer 'easter eggs'."
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl lg:text-[10vw] leading-[0.9]",
+      "h2": "text-4xl md:text-6xl leading-[1.1]",
+      "h3": "text-2xl md:text-3xl",
+      "body": "text-lg md:text-xl",
+      "labels": "text-xs uppercase tracking-[0.2em]"
+    }
+  },
+  "colors": {
+    "background": {
+      "primary": "#FDFBF7",
+      "secondary": "#FFEAC2",
+      "tertiary": "#D6F1D6"
+    },
+    "text": {
+      "primary": "#0F0F0F",
+      "secondary": "#4A4A4A",
+      "inverse": "#FDFBF7"
+    },
+    "accents": {
+      "primary": "#FF4500",
+      "secondary": "#00E5FF",
+      "tertiary": "#FFD700"
+    },
+    "borders": {
+      "default": "#0F0F0F"
+    }
+  },
+  "components_and_layout": {
+    "grid_system": "Bento Grid Protocol (MODE A: THE 'TETRIS' GRID). Generous gap-8 to gap-12. Asymmetrical column spans.",
+    "borders_and_shadows": "Neo-Brutalism style. Use solid 2px borders (`border-2 border-[#0F0F0F]`). Shadows must be solid, unblurred offsets, e.g., `box-shadow: 6px 6px 0px #0F0F0F`. On hover, translate elements `-translate-x-1 -translate-y-1` and increase shadow to `box-shadow: 10px 10px 0px #0F0F0F`.",
+    "buttons": "Large, blocky, highly tactile. Vibrant background (e.g. #FFD700), 2px solid black border, and solid black drop shadow. On hover, the button depresses (translates down/right) and shadow reduces, creating a physical 'click' feel.",
+    "cards": "Square or rectangular with zero border-radius (`rounded-none` or `rounded-md` max) to maintain the brutalist feel. Background colors rotate between Off-White, Pale Mint, and Butter Yellow.",
+    "marquee": "Use an infinite marquee for the Skills section. Massive outline text (`text-8xl font-black text-transparent [-webkit-text-stroke:2px_#0F0F0F]`)."
+  },
+  "sections": {
+    "Header": "Sticky, floating nav. Transparent background but with a solid black bottom border or housed in a pill-shaped container with neo-brutalist styling. Links to About, Skills, Experience, Projects. Right side: 'Download Resume' prominent button.",
+    "Hero": "Massive text 'SARTHAK SAHU'. Subtext: 'Full Stack Developer / Digital Builder'. Asymmetrical layout featuring the 3D claymorphism avatar floating/rotating slightly. A vibrant Call to Action to 'Say Hello'.",
+    "About": "Large, statement typography layout. Not a boring paragraph. Use highlighting (`bg-[#FFD700]`) on key words like 'React', 'New Delhi', '5+ Years'.",
+    "Skills": "Kinetic texture marquee. Continuous scrolling ribbon of tech stacks (React, Next.js, Node.js, MongoDB, HubSpot) separated by asterisks or playful icons.",
+    "Experience": "A zigzag or step-based timeline. Left column: Year/Company (MediaTek, NGO). Right column: Thick black borders enclosing the role and impact. High contrast.",
+    "Projects": "Bento grid of featured projects. Large thumbnail images with hover zoom effects. Solid color background blocks that change color on hover. Include links to live/github.",
+    "Contact": "Massive typography footer: 'LET S BUILD SOMETHING'. Two massive buttons: Mailto and WhatsApp. Social links (LinkedIn, GitHub) in a structured footer below. No contact forms."
+  },
+  "motion_and_interactions": {
+    "scrolling": "Smooth momentum scrolling (Lenis).",
+    "custom_cursor": "A custom circular cursor (`w-6 h-6 bg-[#FF4500] mix-blend-difference rounded-full`) that scales up on interactive elements.",
+    "hover_states": "Physical buttons (translate down/right, shadow decreases). Links get a thick animated underline. Images zoom in slightly within their containers.",
+    "entrance_animations": "Staggered slide-up and fade-in for bento grid cards (framer-motion). Text lines reveal from bottom (masking)."
+  },
+  "media": {
+    "images": [
+      {
+        "category": "Hero Avatar",
+        "description": "Playful 3D claymorphism style developer avatar",
+        "url": "https://static.prod-images.emergentagent.com/jobs/187287cf-e8bd-4e3e-8b7c-5043562cb998/images/ab13e38323d5741d4407d0eac39fe30bca2cd4e7e7be30faad8bf5d3c6db6f1d.png",
+        "alt_text": "Sarthak Sahu 3D Avatar"
+      },
+      {
+        "category": "Project Thumbnail 1",
+        "description": "MediaTek project representation - pop art microchips",
+        "url": "https://static.prod-images.emergentagent.com/jobs/187287cf-e8bd-4e3e-8b7c-5043562cb998/images/b64aced5f395b341ea76a7afbe30b57f7f889b2a77b0287d3f916beaf3b873a8.png",
+        "alt_text": "MediaTek Project"
+      },
+      {
+        "category": "Project Thumbnail 2",
+        "description": "NGO Management Platform representation - community connection",
+        "url": "https://static.prod-images.emergentagent.com/jobs/187287cf-e8bd-4e3e-8b7c-5043562cb998/images/e2342e95d76ff503264601842bdc64e68872c97794378fead42cdcc082f4f4f2.png",
+        "alt_text": "NGO Management Platform"
+      }
+    ],
+    "icons": "Use 'lucide-react' for UI icons (Menu, ArrowUpRight, Download). Use 'react-icons/fi' or 'react-icons/fa' for specific brand logos (React, Next.js, HubSpot, WhatsApp, LinkedIn, GitHub)."
+  },
+  "accessibility": {
+    "contrast": "Ensure pure black (#0F0F0F) text on vibrant backgrounds passes WCAG AA.",
+    "reduced_motion": "Respect prefers-reduced-motion media queries by disabling framer-motion variants.",
+    "data_testid": "Add data-testid to all CTA buttons, project links, and social links."
+  },
+  "instructions_to_main_agent": [
+    "Build the UI in React with Tailwind CSS and Framer Motion.",
+    "Set up Lenis for smooth scrolling in the main Layout/App component.",
+    "Implement the Neo-brutalist shadow utility in tailwind.config.js (e.g., `boxShadow: { 'brutal': '6px 6px 0px #0F0F0F', 'brutal-hover': '2px 2px 0px #0F0F0F' }`).",
+    "Import Cabinet Grotesk, Outfit, and IBM Plex Mono via Google Fonts or standard imports.",
+    "Create a custom Cursor component that tracks mouse position and uses framer-motion for smooth lagging.",
+    "Build the Marquee using `react-fast-marquee` or pure CSS animation.",
+    "Use standard `<a>` tags with `mailto:email@example.com` and `https://wa.me/PhoneNumber` for contact actions.",
+    "Ensure 'Download Resume' opens the `/resume.pdf` (assumed file path) in a new tab or triggers download."
+  ]
+}

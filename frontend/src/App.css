@@ -1,0 +1,8 @@
+/* Portfolio overrides — kept minimal. All section styling is in tailwind. */
+.App {
+    text-align: left;
+}
+
+html {
+    scroll-behavior: smooth;
+}
